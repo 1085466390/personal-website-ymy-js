@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="keywords" content="个人网站,袁鸣禹,ymymyi个人网站,学生网页,学生个人网页,个人作品">
+		<meta name="author" content="袁鸣禹">
+		<meta name="discription" content="这个是学生用html5写的个人网站作品">
+		<meta http-equiv="refresh" content="1600">
+		<title>ymymyi's BLOG</title>
+		<link rel="stylesheet" type="text/css" href="css/layui.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet prefetch" href="css/font.css">
+		<link rel="stylesheet" href="css/style.css">
+	
+	</head>
+
+	<body>
+		<div id="container">
+			<audio autoplay="autoplay" >
+					<source src="img/YES!OK! .mp3" type="audio/mpeg" ></audio>
+		<div class="header">
+			<div class="menu-btn">
+				<div class="menu"></div>
+			</div>
+			<h1 class="logo">
+				<a href="http://ymymyi.dev.dxdc.net/grwzjs/index.html">
+					<span>MYBLOG</span>
+					<img src="img/logo.png">
+				</a>
+			</h1>
+			<!--导航栏-->
+			<div class="nav">
+				<a href="http://ymymyi.dev.dxdc.net/grwzjs/index.html" class="active">个人主页</a>
+				<a href="http://ymymyi.dev.dxdc.net/grwzjs/family.html">我爱的人</a>
+				<a href="http://ymymyi.dev.dxdc.net/grwzjs/hometown.html">成长环境</a>
+				<a href="http://ymymyi.dev.dxdc.net/grwzjs/travel.html">旅游日记</a>
+			</div>
+			<p class="welcome-text">欢迎来到<span class="name">袁鸣禹</span>的个人主页~</p>
+		</div>
+
+		<!--照片展示，效果来源于网络,调用js函数代码-->
+		<div class="cont1">
+			<!-- 照片内部展示 -->
+			<div class="cont1__inner">
+				<!-- 第一个照片 -->
+				<div class="el">
+					<div class="el__overflow">
+						<div class="el__inner">
+							<div class="el__bg"></div>
+							<div class="el__preview-cont">
+								<h2 class="el__heading">Section 1</h2>
+							</div>
+							<div class="el__content">
+								<div class="el__text">Hometown</div>
+								<div class="el__close-btn"></div>
+							</div>
+						</div>
+					</div>
+					<div class="el__index">
+						<div class="el__index-back">1</div>
+						<div class="el__index-front">
+							<div class="el__index-overlay" data-index="1">1</div>
+						</div>
+					</div>
+				</div>
+				<!-- 第二个照片 -->
+				<div class="el">
+					<div class="el__overflow">
+						<div class="el__inner">
+							<div class="el__bg"></div>
+							<div class="el__preview-cont">
+								<h2 class="el__heading">Section 2</h2>
+							</div>
+							<div class="el__content">
+								<div class="el__text">Military Training</div>
+								<div class="el__close-btn"></div>
+							</div>
+						</div>
+					</div>
+					<div class="el__index">
+						<div class="el__index-back">2</div>
+						<div class="el__index-front">
+							<div class="el__index-overlay" data-index="2">2</div>
+						</div>
+					</div>
+				</div>
+				<!-- 第三个照片-->
+				<div class="el">
+					<div class="el__overflow">
+						<div class="el__inner">
+							<div class="el__bg"></div>
+							<div class="el__preview-cont">
+								<h2 class="el__heading">Section 3</h2>
+							</div>
+							<div class="el__content">
+								<div class="el__text">Back View</div>
+								<div class="el__close-btn"></div>
+							</div>
+						</div>
+					</div>
+					<div class="el__index">
+						<div class="el__index-back">3</div>
+						<div class="el__index-front">
+							<div class="el__index-overlay" data-index="3">3</div>
+						</div>
+					</div>
+				</div>
+				<!-- 第四个照片 -->
+				<div class="el">
+					<div class="el__overflow">
+						<div class="el__inner">
+							<div class="el__bg"></div>
+							<div class="el__preview-cont">
+								<h2 class="el__heading">Section 4</h2>
+							</div>
+							<div class="el__content">
+								<div class="el__text">KiKi</div>
+								<div class="el__close-btn"></div>
+							</div>
+						</div>
+					</div>
+					<div class="el__index">
+						<div class="el__index-back">4</div>
+						<div class="el__index-front">
+							<div class="el__index-overlay" data-index="4">4</div>
+						</div>
+					</div>
+				</div>
+				<!-- 第五个照片 -->
+				<div class="el">
+					<div class="el__overflow">
+						<div class="el__inner">
+							<div class="el__bg"></div>
+							<div class="el__preview-cont">
+								<h2 class="el__heading">Section 5</h2>
+							</div>
+							<div class="el__content">
+								<div class="el__text">Selfile</div>
+								<div class="el__close-btn"></div>
+							</div>
+						</div>
+					</div>
+					<div class="el__index">
+						<div class="el__index-back">5</div>
+						<div class="el__index-front">
+							<div class="el__index-overlay" data-index="5">5</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--网页自我介绍内容-->
+		<div class="content">
+			<div class="cont w1000">
+				<div class="title">
+					<!--内容导航栏-->
+					<span class="breadcrumb" lay-separator="|" style="visibility: visible;">
+						<a href="javascript:;" class="active">个人简介</a><span lay-separator="">|</span>
+						<a href="javascript:;">性格特点</a><span lay-separator="">|</span>
+						<a href="javascript:;">爱好特长</a><span lay-separator="">|</span>
+						<a href="javascript:;">未来规划</a><span lay-separator="">|</span>
+						<a href="javascript:;">成长轨迹</a>
+					</span>
+				</div>
+
+				<!--个人简介-->
+				<div class="list-item">
+					<div class="item">
+						<div class="fluid">
+							<div class="row">
+								<div class="col-xs12 col-sm4 col-md5">
+									<div class="img"><img src="img/self1.jpg" alt="证件照" width="340px" height="340px"></div>
+								</div>
+								<div class="col-xs12 col-sm8 col-md7">
+									<div class="item-cont">
+										<h3>个人简介<button class="btn btn-danger new-icon">new</button></h3>
+										<h5>“我不知道优秀的尽头在哪里，我能做的就是不断超越自己去接近优秀”</h5>
+										<p>姓名：袁鸣禹</p>
+										<p>出生年月：2001年8月13日</p>
+										<p>家庭地址：<a href="https://baike.baidu.com/item/%E5%AE%9C%E6%98%A5/244547?fr=aladdin" target="_blank">江西省宜春市</a>
+											<!--当点击江西省宜春市时会打开宜春的百度百科-->（点击打开百度百科）</p>
+										<p>所在学校：<a href="https://www.cqnu.edu.cn/" target="_blank">重庆师范大学</a>（点击打开重师官网）
+											<!--当点击重庆师范大学时会打开重师官网-->
+										</p>
+										<p>所在学院：计算机与信息科学学院</P>
+										<p>所在专业：19级计算机科学与技术2班</P>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--性格特点-->
+			<div id="charact">
+				<con1>
+					<h1>性格特点</h1>
+					<con2>
+						乐观开朗，积极向上，外向活泼，想做一个温柔的人，个人优点是做事比较认真细致，想尽量把每一件事情做到最好，但是缺点就是，有时候比较拖延，不能很专心。希望自己在往后慢慢改进自己出现的问题，尽量使自己越来越优秀！同时也希望自己在大学四年的时光好好的学习，好好的生活，珍惜这美好的大学时光。以梦为马，不负韶华！</con2>
+				</con1>
+
+				<con1>
+					<h1>爱好特长</h1>
+					<con2>
+						喜欢旅游，喜欢听歌，喜欢摄影，在旅游的时候，每到达一个新的地方都能给自己带来新的体验，带来一段美好的记忆，同时用相机可以记录下所见之景。听歌的时候，当整个人享受音乐的时候是最放松的时候。学过素描，学过小提琴，学过吉他，学过钢琴，但是都只学到皮毛后悔以前半途而废，所以希望以后学东西都深层次的去学习！</con2>
+				</con1>
+
+				<con1>
+					<h1>未来规划</h1>
+					<con2>
+						目前对计算机的学习比较感兴趣，但是还需要认真刻苦的学专业知识，尽可能地把知识掌握好，希望在未来做一个合格优秀的程序员。同时也希望以后能够有更多的机会去旅游，多去不同的地方感受不同的文化，能自己赚钱带父母出去旅游是一件十分幸福的事情呀！希望在以后过上自己喜欢的生活，享受生活，感受身边的美好。</con2>
+				</con1>
+
+			</div>
+
+
+			<div id="growth">
+				<h2><strong>成&nbsp;长&nbsp;轨&nbsp;迹&nbsp;&nbsp;
+						<button class="btn btn-danger new-icon">new</button>
+					</strong></h2>
+				<con3><iframe height=250 width=350 src='http://player.youku.com/embed/XNDQ4NTkzMzg2OA==' frameborder=0
+					 'allowfullscreen'></iframe></con3>
+				<con4 style="margin-right:20px;">
+					<h3>小学</h3><div class="con5">小学，是一个比较调皮的时期，中午在老师家吃完饭，基本会把作业写完，有时候下午放学会在外面玩到很晚才回家，让父母很担心。小学学了小提琴和素描，都考级了但没有坚持学下期，也上了很久的英语班一直持续到初中，对英语的兴趣可能也是从那时候开始的，也很感谢当时学英语打下的基础。</div>
+				</con4>
+				<con4>
+					<h3>初中</h3><div class="con5">初中，初中三年，一年半时间都是住在学校旁边，也是这样，早上起床就很晚才起床。回想自己的初中三年，感觉自己没有很努力的学习，但是中考成绩还算不错。初中也算是一个叛逆时期，也给父母带来了很多麻烦，后面慢慢懂得了一些道理之后就好一点，也感谢当时的班主任的引导，给自己指明了方向。</div>
+				</con4>
+				<con4>
+					<h3>高中</h3><div class="con5">高中，第一个学期住校，也是自己的第一次生活自理，学到了一些基本的生活技能，也认识了一些好朋友，回忆住校的那段日子，是懵懂的开心。后面的两年半和父母租住在学校旁边，父母陪读也很辛苦，感谢他们为我所付出的一切。高中的三年，是只为高考这一个目标努力奋斗的三年，是充实、是美好。</div>
+				</con4>
+				<con4>
+					<h3>大学</h3><div class="con5">大学,2019年9月，来到重庆，来到重师开始我的大学生活，如今大一已经要结束了，大学一年的生活给我带来了许多新的体验，一直在路上，一直在成长，已经度过了1/4的大学，剩下的3/4希望自己好好规划，尽可能的多熟练的掌握些技能，“万千热爱，初心未改”，希望自己保持初心勇敢地向前！</div>
+				</con4>
+
+
+			</div>
+			<!--翻页部分-->
+			<div id="demo" style="text-align: center;">
+				<div class="box laypage laypage-default" id="laypage-1">
+					<a href="javascript:;" class="laypage-prev disabled" data-page="0">上一页</a>
+					<span class="laypage-curr"><em class="laypage-em"></em><em>1</em></span>
+					<a href="family.html" data-page="2">2</a>
+					<a href="hometown.html" data-page="3">3</a>
+					<a href="travel.html" data-page="4">4</a>
+					<a href="javascript:;" data-page="5">5</a>
+					<span class="laypage-spr">…</span>
+					<a href="javascript:;" class="laypage-last" title="尾页" data-page="7">7</a>
+					<a href="family.html" class="laypage-next" data-page="2">下一页</a>
+				</div>
+			</div>
+		<!--留言板部分-->
+		<div class="content whisper-content leacots-content">
+			<div class="cont w1000">
+				<div class="whisper-list">
+					<div class="item-box">
+						<div class="review-version">
+							<div class="form-box">
+								<img class="banner-img" src="img/liuyan.jpg">
+								<div class="form">
+									<form class="form" action="">
+										<div class="form-item form-text">
+											<div class="input-block">
+												<textarea name="desc" placeholder="既然来了，就说几句" class="textarea"></textarea>
+											</div>
+										</div>
+										<div class="form-item">
+											<div class="input-block" style="text-align: right;">
+												<button class="btn definite">确定</button>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+							<hr align="left" size="10" width="100%" color="#ff7f21">
+                           <!--联系方式版块-->
+							<div id="foot">
+								<div class="foot1">
+									<img src="img/QQcode.png" width="200" height="200">
+									<img src="img/VXcode.png" width="200" height="200">
+									<img src="img/WBcode.jpg" width="200" height="200" style="margin-right: 50px;">
+								</div>
+								<div id="foot2">
+									<br>
+									<h4> 我的联系方式:</h4>
+									<p>微信<span class="WeChat">：ymyymyi</span></p>
+									<p>手机<span class="iphone">：19936078157</span></p>
+									<p>邮箱：<span class="email">1085466390@qq.com</span></p>
+									<br>
+									<p> 重庆师范大学计算机与信息科学学院</p>
+									<p>2019计科 袁鸣禹 制作 版权所有</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		<script src="js/index.js"></script>
+		<script type="text/javascript" src="js/layui.js"></script>
+		
+
+
+	</body>
+</html>

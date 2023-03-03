@@ -1,0 +1,301 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container {position:relative;width:1400px;margin:0 auto;/*版面居中*/}
+/*导航栏样式*/
+body {
+	font: 20px 宋体 Helvetica Neue, Helvetica, PingFang SC, Tahoma, Arial, sans-serif;
+	overflow-x: hidden;
+}
+.myShow{display:block;/*显示*/}
+.myHide{display:none;/*隐藏*/}
+
+.w1000 {
+	max-width: 1000px !important;
+	margin: 0 auto;
+}
+
+.header {
+	height: 120px;
+	line-height: 120px;
+	position: relative;
+	font-size: 16px;
+}
+
+.header .logo,
+.header .welcome-text,
+.header .nav {
+	position: absolute;
+	top: 0;
+}
+
+.header .logo {
+	left: 65px;
+}
+
+.header .logo span {
+	display: none;
+}
+
+.header .nav {
+	left: 250px;
+	color: #fff;
+}
+
+.header .nav a {
+	color: #3f2863;
+	margin: 0 33px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.header .nav a.active {
+	color: #ff7f21;
+}
+
+.header .welcome-text {
+	right: 50px;
+	font-size: 20px;
+	color: #ff7f21;
+}
+
+.header .header-down-nav {
+	display: none;
+}
+
+#container {
+	position: relative;
+	margin: 0 auto;
+}
+
+
+#topbar {
+	float: left;
+	/*右浮动*/
+	margin: -10px 0px 10px 2px;
+	width: 1400px;
+	text-align: center;
+}
+
+.out {
+	width: 1400px;
+	height: 360px;
+	margin: 10px auto;
+	overflow: hidden;
+	/*超出部分隐藏*/
+	text-align: center;
+	border-radius: 20px;
+	background-color: #C9E3FB;
+	/*背景色*/
+}
+
+.con1 {
+	width: 2800px;
+	/*滚动图片总宽*/
+	height: 380px;
+	/*高度*/
+	overflow: hidden;
+	/*超出部分隐藏*/
+	animation: move 30s linear infinite normal;
+	/*移动 共40s*/
+	animation-fill-mode: forwards;
+}
+
+@keyframes move {
+	0% {
+		transform: translateX(0px);
+		/*平移*/
+	}
+
+	100% {
+		transform: translateX(-1500px);
+	}
+}
+
+.con1 li {
+	float: left;
+	/*左浮动*/
+	list-style: none;
+	overflow: hidden;
+}
+
+.con1 li img {
+	float: left;
+	width: 400px;
+	height: 320px;
+	margin: 0px;
+	border-radius: 20px;
+	margin: 0px 20px;
+}
+
+.con1 li1 img {
+	float: left;
+	width: 900px;
+	height: 300px;
+	margin: 0px;
+	border-radius: 20px;
+	margin: 0px 20px;
+}
+
+#footer{
+	width: auto;
+	height: 250px;
+	margin-left: 200px;
+	maragin-top:200px;
+	font-size: 14px;
+}
+
+
+#content .con3 {
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 隶书;
+	text-align: center;
+	color: #F2B443;
+	border: 5px dashed #8BB9FF;
+	border-radius: 20px;
+	background-color: rgba(204, 204, 204, 0.40);
+	margin-top: 30px;
+	margin-left: 120px;
+	margin-right: 20px;
+	padding: 10px;
+	width: 1100px;
+	height: 40px;
+	float: left;
+	box-shadow: 0px 0px 10px #333;
+}
+#content .con3:hover{
+	color: #5599FF;
+	transform: scale(1.10);
+	transition: all 200ms;
+}
+
+#content .con2 {
+	border: 5px dashed #8BB9FF;
+	border-radius: 20px;
+	background-color: rgba(204, 204, 204, 0.40);
+	margin-top: 40px;
+	margin-left: 120px;
+	margin-right: 20px;
+	padding: 10px;
+	width: 1100px;
+	height: 320px;
+	float: left;
+	box-shadow: 0px 0px 10px #333;
+}
+
+#content .con2:hover {
+	transform: scale(1.10);
+	transition: all 200ms;
+}
+#content .con2 p{
+	text-indent: 2em;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/*使表格内容居中*/
+#content .con {
+	display: inline-block;
+	height: 400px;
+	width: 500px;
+	margin-top: 50px;
+	margin-left: 120px;
+	margin-right: 100px;
+	padding-top: 10px;
+	border: 4px inset;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px #333;
+	background-color: rgba(255, 217, 190, 0.46);
+}
+#content .con p{
+	text-indent: 2em;
+}
+/*设置文字的字体、边框效果等*/
+#content .con ul {
+	line-height: 2em;
+}
+
+#content .con:hover {
+	transform: rotate(-12deg);
+	transition: all 400ms;
+}
+
+#con4 h3 {
+	margin-top: 15px;
+	font-family: "楷书";
+	color: #FFA666;
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	text-shadow: 0 0 5px #fff;
+	/*设置标题样式阴影效果*/
+}
+
+#con4 h4 {
+	font-family: 隶书;
+	font-size: 30px;
+	margin-top: -5px;
+	color: #FFA666;
+	text-align: center;
+}
+
+
+#con4 {
+	margin-left: 10px;
+	width: 1050px;
+	height: 830px;
+	padding: 40px;
+	margin-top: 950px;
+	margin-left: 120px;
+	background-color: rgba(255, 217, 190, 0.46);
+	border-radius: 30px;
+	box-shadow: 0px 0px 10px #333;
+}
+
+#con5 {
+	margin-left: 10px;
+	width: 1000px;
+	height: 600px;
+	padding: 40px;
+	margin-top: 20px;
+	background-color: rgba(255, 217, 190, 0.46);
+	border-radius: 30px;
+	box-shadow: 0px 0px 10px #333;
+}
+
+/*设置我的学校的内容边框样式以及文字效果*/
+img {
+	border-radius: 10px;
+}
+
+/*使图片有圆角效果*/
+img:hover {
+	transform: scale(1.1);
+	border-radius: 0px;
+	transition: all 400ms;
+}
+
+/*当鼠标移到照片上的时候照片放大*/
+#con4:hover {
+	transform: scale(1.02);
+	transition: all 200ms;
+}
+#con5:hover {
+	transform: scale(1.02);
+	transition: all 200ms;
+}
+
+#footer .foot1{
+	width: 680px;
+	height: 220px;
+	float: left;
+	margin-right: 50px;
+}
+
+#footer .foot2{
+	width:200px;
+	height: 200px;
+	float: right;
+	margin-right: 100px;
+}
